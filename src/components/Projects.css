@@ -1,0 +1,114 @@
+.projects {
+  padding: 60px 0; /* Add padding to the section */
+  position: relative; /* Position relative for background image */
+}
+
+.section-title {
+  text-align: center; /* Center the section title */
+  font-size: 2.5rem; /* Font size for the title */
+  margin-bottom: 40px; /* Space below the title */
+  color: #fff; /* Ensure the title is visible against the background */
+}
+
+.projects img {
+  width: 100%; /* Make images responsive */
+  border-radius: 10px; /* Rounded corners for images */
+  margin-top: 20px; /* Space above images */
+}
+
+.nav-link {
+  margin: 0 10px; /* Space between nav links */
+  font-size: 1.2rem; /* Font size for nav links */
+  color: #fff; /* Text color for nav links */
+  transition: color 0.3s; /* Smooth transition for hover effect */
+}
+
+.nav-link:hover {
+  color: #4caf50; /* Change color on hover */
+}
+
+.nav-link.active {
+  background-color: #4caf50; /* Active link color */
+  color: white; /* Text color for active link */
+  border-radius: 5px; /* Rounded corners for active link */
+  padding: 10px 15px; /* Padding for active link */
+}
+
+.proj-imgbx {
+  position: relative;
+  border-radius: 30px;
+  overflow: hidden;
+  margin-bottom: 24px;
+  background-color: #4a2fbd; /* Background color for project card */
+  color: white; /* Text color for project card */
+  height: 200px; /* Fixed height for project card */
+  display: flex; /* Flexbox for centering */
+  align-items: center; /* Center vertically */
+  justify-content: center; /* Center horizontally */
+  text-align: center; /* Center text */
+}
+
+.proj-txtx {
+  transition: 0.5s ease-in-out;
+  opacity: 1; /* Ensure text is always visible */
+}
+
+.background-image-right {
+  top: 20%;
+  position: absolute;
+  bottom: 0;
+  width: 35%;
+  right: 0;
+  z-index: -4;
+}
+
+.project-details {
+  padding: 30px; /* Increased padding for the details */
+  background-color: #343a40; /* Dark background for the modal */
+  color: #ffffff; /* Light text color */
+  border-radius: 20px; /* More rounded corners */
+  margin: 0; /* Remove margin to ensure it fits well in the modal */
+}
+
+.modal-header {
+  background-color: #495057; /* Darker background for the header */
+  color: #ffffff; /* Light text color for the header */
+  border-top-left-radius: 20px; /* Rounded top left corner */
+  border-top-right-radius: 20px; /* Rounded top right corner */
+}
+
+.modal-footer {
+  background-color: #495057; /* Darker background for the footer */
+  color: #ffffff; /* Light text color for the footer */
+  border-bottom-left-radius: 20px; /* Rounded bottom left corner */
+  border-bottom-right-radius: 20px; /* Rounded bottom right corner */
+}
+
+.btn-primary {
+  background-color: #007bff; /* Primary button color */
+  border-color: #007bff; /* Border color */
+  border-radius: 5px; /* Rounded corners for buttons */
+}
+
+.btn-primary:hover {
+  background-color: #0056b3; /* Darker shade on hover */
+  border-color: #0056b3; /* Darker border on hover */
+}
+
+.btn-secondary {
+  background-color: #6c757d; /* Secondary button color */
+  border-color: #6c757d; /* Border color */
+  border-radius: 5px; /* Rounded corners for buttons */
+}
+
+.btn-secondary:hover {
+  background-color: #5a6268; /* Darker shade on hover */
+  border-color: #5a6268; /* Darker border on hover */
+}
+
+/* Center the modal on the page */
+.modal {
+  display: flex !important; /* Use flexbox for centering */
+  align-items: center; /* Center vertically */
+  justify-content: center; /* Center horizontally */
+}

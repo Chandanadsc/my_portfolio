@@ -1,0 +1,34 @@
+.footer {
+  background-color: transparent; /* Set background color to transparent */
+  color: #ffffff; /* White text color for visibility */
+  padding: 40px 0; /* Padding for spacing */
+}
+
+.footer-details,
+.footer-links {
+  text-align: center; /* Center the footer details and links */
+}
+
+.footer-contact,
+.footer-links p,
+.footer-copyright {
+  margin: 10px 0;
+  font-size: 1.5rem;
+}
+
+.footer-links {
+  display: flex; /* Use flexbox for layout */
+  justify-content: center; /* Center the links horizontally */
+  flex-wrap: wrap; /* Allow wrapping if necessary */
+}
+
+.footer-links a {
+  color: #b8ddba; /* Green color for links */
+  text-decoration: none; /* Remove underline */
+  font-size: 1.5rem; /* Increased font size for links */
+  margin: 0 15px; /* Space between links */
+}
+
+.footer-links a:hover {
+  text-decoration: underline; /* Underline on hover for better visibility */
+}

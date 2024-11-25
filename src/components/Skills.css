@@ -1,0 +1,27 @@
+.skill {
+  padding: 60px 0;
+  background-image: url("../assets/img/banner-bg.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+}
+
+.skill-bx {
+  text-align: center;
+}
+
+.skill-item {
+  margin: 20px 0;
+}
+
+.skill-name {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.skill-bar {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+}
